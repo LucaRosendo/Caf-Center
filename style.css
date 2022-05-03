@@ -1,0 +1,117 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./imagens/fundo.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    height: 100vh;
+    padding: 20px, 20px, 20px, 20px;
+    text-align: center;
+}
+
+.cabeca{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./imagens/fundo5.jpg");
+}
+  
+li {
+    display: inline;
+}
+
+.btn{
+    font-family: cursive;
+    font-weight: bold;
+    background-color: black;
+    color: gold;
+    width: 100px;
+    height: 50px;
+    border: none;
+    float: left;
+}
+
+.btn:hover{
+    font-family: cursive;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    border: 3px;
+    font-size: 14px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid yellow;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.center{
+    text-align: center;
+    padding-top: 200px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+.imagem{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imagens/imagem.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    padding: 20px, 20px, 20px, 20px;
+}
+
+.sobre{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./imagens/fundo2.jpg");
+    padding-top: 20px;
+    
+    margin-top: 15px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.conheca{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./imagens/fundo3.jpg");
+    padding-top: -70px;
+    padding: 30px;
+    margin-top: 15px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.direto{
+    float: right;
+    margin-right: 100px;
+}
+
+.button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 14px 40px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: #e7e7e7; color: black;
+    padding: 14px 40px;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.lorem{
+    margin-top: 20px;
+}
+
+.meio{
+    margin-top: 60px;
+    margin:  40px;
+    padding: 10px;
+}
+
+.left{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./imagens/fundo4.jpg");
+    text-align: center;
+    padding-top: 10px;
+    padding: 10px;
+    margin: auto;
+    font-family: cursive;
+    color: black;
+}
